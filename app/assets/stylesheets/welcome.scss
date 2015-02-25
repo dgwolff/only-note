@@ -1,0 +1,20 @@
+body.welcome {
+  height: 100vh;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.20), 
+      rgba(0, 0, 0, 0.20)
+    ), 
+  url(/assets/cover.jpeg);
+  margin: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.banner {
+  text-align: center;
+}
