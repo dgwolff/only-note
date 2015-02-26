@@ -2,20 +2,28 @@
   height: 100%;
 }
 
+/* Notes */
 .note-wrapper {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* Notes */
 .note {
   margin: 10px; 
   padding: 10px;
-  border: 1px solid #23527C;
+  border: 1px solid #000;
   border-radius: 10px;
   min-height: 150px;
 }
 
 .note h2 {
   font-weight: 300;
+}
+
+.note:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
 }
