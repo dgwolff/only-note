@@ -1,4 +1,5 @@
-body.welcome {
+/* Cover image */
+body#welcome {
   height: 100vh;
   background:
     linear-gradient(
@@ -15,6 +16,26 @@ body.welcome {
   background-size: cover;
 }
 
-.banner {
+/* Banner */
+#banner {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  right: 0;
   text-align: center;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
 }
+
+#banner h1 {
+  font-size: 64px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+#banner h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
