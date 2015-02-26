@@ -10,5 +10,5 @@ Rails.application.routes.draw do
   root 'welcome#index'
 
 
-match '*path' => redirect('/'), via: :get
+  match '*path' => redirect('/'), via: :get
 end

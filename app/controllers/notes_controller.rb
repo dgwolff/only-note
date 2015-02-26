@@ -44,6 +44,9 @@ class NotesController < ApplicationController
 
   def find_note
     @note = Note.find(params[:id])
+
+    rescue ActiveRecord::RecordNotFound
+    redirect_to root_url, :flash => { :error => "Sorry, that note doesn't exist" }
   end
 
   def note_params
