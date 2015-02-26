@@ -1,8 +1,21 @@
+#notes-body {
+  height: 100%;
+}
+
+.note-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /* Notes */
 .note {
   margin: 10px; 
   padding: 10px;
-  border: 1px solid #000;
+  border: 1px solid #23527C;
   border-radius: 10px;
   min-height: 150px;
+}
+
+.note h2 {
+  font-weight: 300;
 }

@@ -1,3 +1,24 @@
+/* Body */
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+}
+
+/* Global text styles */
+h1, h2, h3 {
+  font-family: "Oswald", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  border-radius: 0;
+  font-family: "Oswald", sans-serif;
+}
+
 /* Flash Messages */
 .alert-error {
   background-color: #f2dede;
@@ -29,15 +50,4 @@
 
 .alert > ul {
   list-style-type: none;
-}
-
-/* Navbar */
-.navbar {
-  border-radius: 0;
-  font-family: "Oswald", sans-serif;
-}
-
-/* Body text */
-body {
-  font-family: "Open Sans", sans-serif;
 }
