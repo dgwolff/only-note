@@ -1,0 +1,6 @@
+<%= simple_form_for @note do |f| %>
+  <%= f.input :title %>
+  <%= f.input :content %>
+  <%= f.button :submit %>
+  <%= link_to('Cancel', note_path, :class => "btn btn-default") %>
+<% end %>
