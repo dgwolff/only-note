@@ -1,5 +1,18 @@
 #notes-body {
   height: 100%;
+  background:
+    linear-gradient(
+      rgba(255, 255, 255, 0.90), 
+      rgba(255, 255, 255, 0.90)
+    ), 
+  url(/assets/cover.jpeg);
+  margin: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .note-wrapper {
@@ -14,6 +27,7 @@
   border: 1px solid #23527C;
   border-radius: 10px;
   min-height: 150px;
+  background-color: #fff;
 }
 
 .note h2 {
