@@ -5,6 +5,9 @@ class NotesController < ApplicationController
   def search
     if params[:search].present?
       @notes = Note.search(params[:search])
+      if @notes.blank?
+        redirect_to root_url, :flash => { :error => "Sorry, no matching notes were found" }
+      end
     else
       @notes = Note.all 
     end
