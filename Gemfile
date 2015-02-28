@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'devise', '~> 3.4.1'
 gem 'bootstrap-sass', '~> 3.3.3'
 gem 'simple_form', '~> 3.1.0.rc2', github: 'plataformatec/simple_form', branch: 'master'
+gem 'searchkick'
 
 group :development, :test do
   gem 'byebug'
