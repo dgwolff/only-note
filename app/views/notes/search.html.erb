@@ -12,9 +12,7 @@
         </a>
       <% end %>
       <% else %>
-        <h2>Add a note</h2>
-        <p>It appears you haven't created any notes yet... Let's fix that. Create a new note below.</p>
-        <%= link_to "New Note", new_note_path, :class => "btn btn-default" %>
+        <%= controller.redirect_to root_url, :flash => { :error => "Sorry, no matching notes were found" } %>
     <% end %>
   </div>
 </body>
