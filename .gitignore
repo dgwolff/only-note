@@ -18,3 +18,5 @@
 
 # Ignore notes.txt
 notes.txt
+# Ignore application configuration
+/config/application.yml
