@@ -15,6 +15,7 @@ gem 'simple_form', '~> 3.1.0.rc2', github: 'plataformatec/simple_form', branch: 
 gem 'searchkick'
 gem 'omniauth'
 gem 'omniauth-twitter'
+gem 'omniauth-google-oauth2', '~> 0.2.6'
 gem 'figaro'
 
 group :development, :test do
