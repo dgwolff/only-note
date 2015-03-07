@@ -1,7 +1,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 @import "normalize.scss";
 @import "notes.scss";
 @import "welcome.scss";
+@import "bootstrap-social.css";
 @import "global.scss";

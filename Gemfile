@@ -17,6 +17,7 @@ gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'omniauth-google-oauth2', '~> 0.2.6'
 gem 'figaro'
+gem 'font-awesome-sass'
 
 group :development, :test do
   gem 'byebug'

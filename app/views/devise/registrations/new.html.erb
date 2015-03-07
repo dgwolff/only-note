@@ -14,11 +14,14 @@
       <%= f.button :submit, "Sign Up" %>
     </div>
     <div>
-    <div class="twitter-signin">
-      <p><%= link_to image_tag("sign_in_with_twitter.png", :border => 0), user_omniauth_authorize_path(:twitter) %>
-      </p>
-      <p><%= link_to ("Sign In with Google"), user_omniauth_authorize_path(:google) %>
-      </p>
-    </div>
   <% end %>
+
+  <div class="social-signin">
+    <%= link_to user_omniauth_authorize_path(:twitter), class: "btn btn-block btn-social btn-twitter" do %>
+      <i class="fa fa-twitter"></i>Sign in with Twitter
+    <% end %>
+    <%= link_to user_omniauth_authorize_path(:google), class: "btn btn-block btn-social btn-google-plus" do %>
+      <i class="fa fa-google"></i>Sign in with Google
+    <% end %>
+  </div>
 </div>
