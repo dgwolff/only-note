@@ -6,14 +6,12 @@ body#welcome {
       rgba(0, 0, 0, 0.20), 
       rgba(0, 0, 0, 0.20)
     ), 
-  url(/assets/cover.jpeg);
-  margin: 0px;
-  background-position: center;
-  background-repeat: no-repeat;
+  url(/assets/cover.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin-top: -60px;
 }
 
 /* Banner */

@@ -1,6 +1,7 @@
 /* Body */
 html {
   height: 100%;
+  padding-top: 60px;
 }
 
 body {
@@ -18,6 +19,7 @@ h1, h2, h3 {
   border-radius: 0;
   font-family: "Oswald", sans-serif;
   background-color: #fff;
+  border-bottom: 3px solid #3498db;
 }
 
 /* Flash Messages */
