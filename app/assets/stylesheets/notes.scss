@@ -21,6 +21,7 @@
 /* Notes */
 #notes a {
   color: #000;
+  text-decoration: none;
 }
 
 #notes a:hover {
@@ -29,7 +30,7 @@
 
 .note {
   margin: 10px; 
-  padding: 10px;
+  padding: 20px;
   border-radius: 5px;
   height: 350px;
   background-color: #fff;
