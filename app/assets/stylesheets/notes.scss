@@ -2,8 +2,8 @@
   height: 100%;
   background:
     linear-gradient(
-      rgba(255, 255, 255, 0.90), 
-      rgba(255, 255, 255, 0.90)
+      rgba(255, 255, 255, 0.70), 
+      rgba(255, 255, 255, 0.70)
     ), 
   url(/assets/cover.jpeg);
   margin: 0px;
@@ -21,17 +21,25 @@
 }
 
 /* Notes */
+#notes a {
+  color: #000;
+}
+
 .note {
   margin: 10px; 
   padding: 10px;
-  border: 1px solid #23527C;
-  border-radius: 10px;
-  min-height: 150px;
+  border-radius: 5px;
+  height: 350px;
   background-color: #fff;
+  overflow-y: auto;
 }
 
 .note h2 {
   font-weight: 300;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .note:hover {
