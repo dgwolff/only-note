@@ -78,8 +78,8 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # Protect access to site on Heroku
-  # config.middleware.insert_after(::Rack::Runtime, "::Rack::Auth::Basic", "Staging") do |u, p|
-  #   [u, p] == [ENV['MY_SITE_USERNAME'], ENV['MY_SITE_SECRET']]
-  # end
+  config.middleware.insert_after(::Rack::Runtime, "::Rack::Auth::Basic", "Staging") do |u, p|
+    [u, p] == [ENV['MY_SITE_USERNAME'], ENV['MY_SITE_SECRET']]
+  end
 
 end
