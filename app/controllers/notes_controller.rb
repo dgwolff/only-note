@@ -4,12 +4,15 @@ class NotesController < ApplicationController
 
   def search
     if params[:search].present?
-      @notes = Note.search(params[:search])
+      @notes = Note.search params[:search], where: {user_id: current_user.id}
       if @notes.blank?
         redirect_to root_url, :flash => { :error => "Sorry, no matching notes were found" }
       end
     else
-      @notes = Note.all 
+      @notes = Note.where(user_id: current_user)
+      if @notes.blank?
+        redirect_to root_url, :flash => { :error => "Sorry, you don't have any notes yet" }
+      end
     end
   end
 
