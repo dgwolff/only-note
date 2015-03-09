@@ -13,6 +13,16 @@
   background-size: cover;
 }
 
+/* Wrapper for "no notes" text */
+.no-notes {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 0;
+  right: 0;
+}
+
 .note-wrapper {
   padding-left: 0;
   padding-right: 0;
