@@ -1,3 +1,10 @@
+/* Media Queries */
+@media screen and (max-width: 767px) {
+        form.navbar-form.navbar-left {
+            margin-top: -8px;
+        }
+    }
+
 /* Body */
 html {
   height: 100%;
@@ -24,6 +31,7 @@ h1, h2, h3 {
 
 .navbar-form {
   margin: 8px 0px;
+  border-top: 0;
 }
 
 /* Flash Messages */
